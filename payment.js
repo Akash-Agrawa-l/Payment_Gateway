@@ -2,7 +2,6 @@ function payment() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var amount = document.getElementById('amount').value;
-    // var mode = document.getElementById('mode').value;
 
     Email.send({
         Host: "smtp.gmail.com",
