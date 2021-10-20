@@ -7,7 +7,7 @@ function payment() {
     Email.send({
         Host: "smtp.gmail.com",
         Username: `softtechindustries2@gmail.com`,
-        Password: `softtech.io`,
+        Password: `softtech`,
         To: `${email}`,
         From: "softtechindustries2@gmail.com",
         Subject: `Donation Successful!`,
